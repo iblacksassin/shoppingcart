@@ -1,0 +1,96 @@
+body{
+    background: rgb(242, 239, 239);
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background: white;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 10px;
+    width: 25rem;
+    line-height: 35px;
+    height: 33rem;
+    border-radius: 5px;
+    text-align: center;
+}
+#stopwatch{
+    font-size: 1.4rem;
+}
+.details{
+    width: 23rem;
+    margin: auto;
+}
+.timechart{
+    width: 20rem;
+    margin: auto; 
+}
+.logo{
+    width: 35%;
+}
+span{
+    color: red;
+    font-size: .9rem;
+    font-weight: 800;
+    animation: appeare ease-in-out 1s infinite;
+}
+@keyframes appeare {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.h2{
+    color: rgb(6, 6, 167);
+    font-size: 1rem;
+    animation: appear ease-in-out 2s infinite;
+}
+@keyframes appear {
+    0%{
+        transform:scale(1);
+    }
+    50% {
+        transform:scale(1.5); 
+    }
+}
+@media (max-width: 430px){
+    .container{
+        background: white;
+        margin: auto;
+        margin-top: 4rem;
+        width: 25rem;
+        height: 34rem;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 390px){
+    .container{
+        background: white;
+        margin: auto;
+        margin-top: 4rem;
+        width: 22rem;
+        height: 33rem;
+        border-radius: 5px;
+    }
+    .details{
+        width: 21rem;
+        margin: auto;
+    }
+    .timechart{
+        width: 20rem;
+        margin: auto; 
+    }
+}
+@media (max-width: 380px){
+    .container{
+        background: white;
+        margin: auto;
+        margin-top: 4rem;
+        width: 21rem;
+        height: 35rem;
+        border-radius: 5px;
+    }
+}
